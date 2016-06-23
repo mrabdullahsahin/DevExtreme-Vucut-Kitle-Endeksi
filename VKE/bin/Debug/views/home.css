@@ -1,0 +1,27 @@
+﻿/* Put css styles for home view here */
+.home-view p {
+	padding: 5px;
+}
+.txt{
+    width: 100px;
+    float: left;
+    margin-left: 10px;
+}
+.label{
+    float: left;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.buton{
+    margin-left: 90px;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+}
+.sonuctxt{
+    width: 100px;
+    margin-left: 10px;
+    float: left;
+}
+

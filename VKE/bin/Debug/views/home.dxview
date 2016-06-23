@@ -1,0 +1,27 @@
+<div data-options="dxView : { name: 'home', title: 'Home' } " >
+    <div class="home-view dx-content-background"  data-options="dxContent : { targetPlaceholder: 'content' } " >
+                    
+        <label class="label">Boyunuz: </label>  
+        <div id="boy" class="txt" data-bind="dxTextBox: { value: '' }"></div> 
+        <label class="label">cm</label>
+
+        <br/>
+        <br/>
+
+        <label class="label">Kilonuz: </label>
+        <div id="kilo" class="txt" data-bind="dxTextBox: { value: '' }"></div>
+        <label class="label">kg</label>
+        
+        <br />
+        <br />
+
+        <div class="buton" data-bind="dxButton: { text: 'Hesapla', onClick: hesapla }"></div>
+
+        <br />
+        <br />
+        <label class="label">Sonuç: </label> 
+        <div id="sonuc" class="sonuctxt" data-bind="dxTextBox: {}"></div>
+        <div id="durum" class="sonuctxt" data-bind="dxTextBox: {}"></div>
+
+    </div>
+</div>
